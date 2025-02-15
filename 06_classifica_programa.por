@@ -1,3 +1,5 @@
+/*Thiago Soares* - Atividade classificação etária.*/
+
 programa {
 	funcao inicio() {
 		real idade
