@@ -23,7 +23,7 @@ programa {
 		    escreva("\nOlá jovem! Você já pode ver programas com classificação: (14)!\n")
 		}
 		senao se((16 <= idade)e(idade < 18)){
-		    escreva("\nAqui estão programas que possuem classificação etária: (16)!\n")
+		    escreva("\nAqui estão programas que possuem classificação etária até: (16)!\n")
 		}
 		senao se(18 <= idade){
 		    escreva("\nEscolha o programa de sua preferência.\n")
