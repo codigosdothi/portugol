@@ -1,9 +1,10 @@
-/*Este cÛdigo È livre para ser modificado e compartilhado! Por favor, apenas cite a fonte!*/
-/*Prof. Francisco Viana* - IntroduÁ„o ‡ ProgramaÁ„o.*/
+/*Este c√≥digo √© livre para ser modificado e compartilhado! Por favor, apenas cite a fonte!*/
+/*Prof. Francisco Viana* - Introdu√ß√£o √† Programa√ß√£o.*/
+/*Thiago Soares* - Atividade c√°lculo de m√©dia.*/
 
 programa {
 	funcao inicio() {
-	    /*Vamos calcular uma mÈdia entre notas. Considerando valores entre 0 e 10.*/
+	    /*Vamos calcular uma m√©dia entre notas. Considerando valores entre 0 e 10.*/
 	    real valor1 = 11.0, valor2 = 11.0, media
 	    cadeia separador
 	    
@@ -13,12 +14,12 @@ programa {
 	    leia(separador)
 	    linhas(separador)
 	    
-	    /*Aqui temos uma mensagem na tela para interaÁ„o com o/a usu·rio/a.*/
-	    escreva("\nVamos calcular a mÈdia de dois valores: \n")
+	    /*Aqui temos uma mensagem na tela para intera√ß√£o com o/a usu√°rio/a.*/
+	    escreva("\nVamos calcular a m√©dia de dois valores: \n")
 	    linhas(separador)
 	    
 	    /*Como pretendemos calcular notas entre 0 e 10, indiquei um controle para valores.*/
-	    /*Caso queira vocÍ poder· separar em dois trechos de comando enquanto.*/
+	    /*Caso queira voc√™ poder√° separar em dois trechos de comando enquanto.*/
 	    enquanto(((valor1 < 0)ou(valor1 > 10))ou((valor2 < 0)ou(valor2 > 10))){
 	        escreva("\nPor favor, digite valores entre 0 e 10.\n")
 	        escreva("\nDigite o primeiro valor: \n")
@@ -32,10 +33,10 @@ programa {
 	        linhas(separador)
 	    }
 	    
-	    /*Aqui temos o c·lculo da mÈdia que faz uso da funÁ„o que chamamos de somador.*/
+	    /*Aqui temos o c√°lculo da m√©dia que faz uso da fun√ß√£o que chamamos de somador.*/
 	    media = somador(valor1, valor2) / 2
 	    
-	    escreva("\nA mÈdia esperada È: ", media,".\n")
+	    escreva("\nA m√©dia esperada √©: ", media,".\n")
 	}
 	
 	
