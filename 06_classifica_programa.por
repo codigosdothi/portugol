@@ -10,11 +10,11 @@ programa {
 		
 		/*A principal ideia deste tipo de programa é você construir o encadeamento*/
 		se(idade < 10){
-		    escreva("\nOi, você quer ver Cartoon, Disney ou Nickelodeon?: (L).\n")
+		    escreva("\nOi, você quer ver Cartoon, Disney ou Nickelodeon? Mas antes faça o dever de casa!: (L).\n")
 		}
 		
 		senao se((10 <= idade)e(idade < 12)){
-		    escreva("\nAmigo, você já pode ver programas com classificação: (10)!\n")
+		    escreva("\nAmigo, já fez o dever de casa? Você já pode ver programas com classificação: (10)!\n")
 		}
 		senao se((12 <= idade)e(idade < 14)){
 		    escreva("\nOlá jovem! Você já pode ver programas com classificação: (12)!\n")
