@@ -1,9 +1,11 @@
+/*Thiago Soares* - Tri√¢ngulo ret√¢ngulo.*/
+
 programa {
     
 	funcao inicio() {
 		real hip, cat1, cat2, teste
 		
-		escreva("Vamos verificar se o tri‚ngulo apresentado È tri‚ngulo ret‚ngulo.\n")
+		escreva("Vamos verificar se o tri√¢ngulo apresentado √© tri√¢ngulo ret√¢ngulo.\n")
 		escreva("Digite o valor do maior lado: \n")
 		leia(hip)
 		escreva("Digite o valor do segundo lado: \n")
@@ -12,22 +14,22 @@ programa {
 		leia(cat2)
 		
 		se((hip > cat1)e(hip > cat2)){
-		    escreva("VocÍ digitou valores adequados!\n")
+		    escreva("Voc√™ digitou valores adequados!\n")
 		    teste = somaQuadrado(cat1,cat2)
 		    se((hip*hip) == teste){
-		        escreva("O tri‚ngulo apresentado È um tri‚ngulo ret‚ngulo!\n")
+		        escreva("O tri√¢ngulo √© um tri√¢ngulo ret√¢ngulo!\n")
 		    }
 		    senao{
-		       escreva("O tri‚ngulo apresentado n„o È um tri‚ngulo ret‚ngulo!\n") 
+		       escreva("O tri√¢ngulo n√£o √© um tri√¢ngulo ret√¢ngulo!\n") 
 		    }
 		}
 		senao{
-		    escreva("VocÍ digitou valores em ordem inadequada! Por favor, comece novamente!")
+		    escreva("Por favor, comece novamente! Voc√™ digitou valores em ordem inadequada!")
 		}
 	}
 	
 	
-	/*Aqui est· um exemplo de criaÁ„o de funÁ„o para o c·lculo de uma parte do problema! Pensamento Computacional: dividir em pequenas soluÁıes!*/
+	/*Aqui est√° um exemplo de cria√ß√£o de fun√ß√£o para o c√°lculo de uma parte do problema! Pensamento Computacional: dividir em pequenas solu√ß√µes!*/
 	funcao real somaQuadrado(real b, real c){
         real quadrado
         quadrado = (b*b) + (c*c)
